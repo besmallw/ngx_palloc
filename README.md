@@ -54,7 +54,7 @@ struct ngx_pool_cleanup_s {
 };
 ```
 **内存池结构：**
-![ngx内存池.jpg](https://upload-images.jianshu.io/upload_images/18154407-f7547b621a07b9ad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ngx内存池.jpg](https://upload-images.jianshu.io/upload_images/18154407-f7547b621a07b9ad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)            [看不到图片点这](https://upload-images.jianshu.io/upload_images/18154407-f7547b621a07b9ad.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)（我要研究下怎么把图片放到github）
 
 ### 2.函数实现
 #### **⑴ 创建内存池**
@@ -327,3 +327,4 @@ ngx_palloc_large(ngx_pool_t *pool, size_t size)  // 申请大数据块
 ```
 ---
 2020.1.16  19:39  广州
+
